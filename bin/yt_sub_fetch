@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "yt_sub_fetch"
+
+# You can add fixtures and/or initialization code here to make experimenting
+# with your gem easier. You can also use a different console, if you like.
+options = YtSubFetch::YouTubeSubtitleFetch.parse_options_from_cli(ARGV)
+fetch_instance = YtSubFetch::YouTubeSubtitleFetch.new(url: options[:url], language: options[:language], list: options[:list], all_languages: options[:all_languages], debug: options[:debug])
+fetch_instance.run
