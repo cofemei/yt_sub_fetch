@@ -319,9 +319,5 @@ module YtSubFetch
         download_subtitle(subtitle)
       end
     end
-
-    def self.start
-      new.run
-    end
   end
 end
