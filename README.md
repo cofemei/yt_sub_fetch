@@ -1,4 +1,5 @@
 # YouTube Subtitle Downloader
+[![ruby minitest](https://github.com/cofemei/yt_sub_fetch/actions/workflows/ruby_minitest.yml/badge.svg)](https://github.com/cofemei/yt_sub_fetch/actions/workflows/ruby_minitest.yml/badge.svg)
 
 This is a Ruby-based tool for downloading subtitles from YouTube videos. Users can specify the language of the subtitles they want to download or list all available subtitles for a given video.
 
